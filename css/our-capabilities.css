@@ -1,0 +1,80 @@
+.our-capabilities__logo-title
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+}
+
+.our-capabilities__logo-description
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    max-width: 405px;
+}
+
+.our-capabilities
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 115px;
+}
+
+.our-capabilities__logo
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.our-capabilities__logo-right
+{
+    display: flex;
+    gap: 31.6px;
+}
+
+.our-capabilities__cards
+{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+}
+
+.our-capabilities__card img
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.our-capabilities__card
+{
+    border: 1px solid #e6e6e6;
+    padding: 23px;
+}
+
+.our-capabilities__card-title
+{
+    margin-bottom: 13px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+}
+
+.our-capabilities__card-description
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}

@@ -1,0 +1,39 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+  --font-family: "OpenSans", sans-serif;
+  --second-family: "BebasNeueBold", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.g-container
+{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+button
+{
+    background-color: #00a4e5;
+    width: 150px;
+    height: 40px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
