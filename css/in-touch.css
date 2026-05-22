@@ -1,0 +1,16 @@
+.in-touch
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.in-touch img
+{
+    width: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+
+}
