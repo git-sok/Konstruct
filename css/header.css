@@ -1,0 +1,39 @@
+header
+{
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 24px;
+    padding-top: 25px;
+}
+header div
+{
+    max-width: 981px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav
+{
+    width: 410.5px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav a
+{
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    color: #48555b;
+    transform: all 0.2s ease;
+}
+header nav a:hover
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: #00a4e5;
+}
